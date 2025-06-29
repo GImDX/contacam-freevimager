@@ -17,12 +17,12 @@ const TCHAR* CMetadata::m_OrientationTab[9] =
     _T("undefined"),		// 0
     _T("normal"),           // 1
     _T("flip horizontal"),  // 2: left right reversed mirror
-    _T("rotate 180°"),      // 3
+    _T("rotate 180¡ã"),      // 3
     _T("flip vertical"),    // 4: upside down mirror
     _T("transpose"),        // 5: Flipped about top-left <--> bottom-right axis.
-    _T("rotated 90° ccw"),  // 6: rotate 90° cw to right it.
+    _T("rotated 90¡ãccw"),  // 6: rotate 90?cw to right it.
     _T("transverse"),       // 7: flipped about top-right <--> bottom-left axis
-    _T("rotated 90° cw"),   // 8: rotate 90° ccw to right it.
+    _T("rotated 90¡ãcw"),   // 8: rotate 90?ccw to right it.
 };
 
 // Exif Header
